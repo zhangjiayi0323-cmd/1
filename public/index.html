@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skull 在线复刻</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Skull（骷髅牌）线上联机版</h1>
+      <section id="join">
+        <input id="room" placeholder="房间号（如 skull-1）" />
+        <input id="name" placeholder="昵称" />
+        <button id="joinBtn">加入房间</button>
+      </section>
+
+      <section id="game" class="hidden">
+        <p id="notice"></p>
+        <div id="meta"></div>
+
+        <div class="panel">
+          <h2>你的手牌</h2>
+          <div id="hand"></div>
+        </div>
+
+        <div class="panel">
+          <h2>行动</h2>
+          <button id="placeFlower">放置花牌</button>
+          <button id="placeSkull">放置骷髅</button>
+          <input id="bidAmount" type="number" min="1" placeholder="叫牌数量" />
+          <button id="bidBtn">叫牌 / 加注</button>
+          <button id="passBtn">弃权</button>
+          <button id="flipOwnBtn">先翻自己顶牌</button>
+        </div>
+
+        <div class="panel">
+          <h2>玩家状态</h2>
+          <div id="players"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
