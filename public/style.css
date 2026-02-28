@@ -1,0 +1,49 @@
+:root {
+  color-scheme: dark;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #10131a;
+  color: #f4f4f5;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+.panel {
+  background: #1f2430;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+#players .player {
+  border: 1px solid #353c4b;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+button {
+  margin: 4px;
+  padding: 8px 12px;
+}
+
+input {
+  padding: 8px;
+  margin: 4px;
+}
+
+.small {
+  opacity: 0.85;
+  font-size: 12px;
+}

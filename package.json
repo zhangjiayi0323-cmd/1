@@ -1,0 +1,10 @@
+{
+  "name": "skull-online",
+  "version": "1.0.0",
+  "description": "Online multiplayer recreation of Skull board game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
